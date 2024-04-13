@@ -1,0 +1,50 @@
+.chatPage{
+    background-color: white;
+    /*background-image: url("chat_bg.jpg");*/
+    width: 100% !important;
+    height: 96vh;
+    padding: 10px;
+    margin-top: 7px;
+}
+.chatContainer{
+    background-image: url("chat_bg1.jpg");
+    background-color: whitesmoke;
+    height: 88%;
+    width: 100%;
+}
+.defaultBgImange{
+    background-image: url("chat_bg1.jpg") !important;
+    height: 100vh !important;
+    width: 100%;
+}
+.chatBox{
+    height: 100%;
+    /*overflow-y: auto;*/
+    margin-top: 50px;
+}
+
+#chatInput{
+    width: 70% !important;
+    padding: 5px;
+}
+.chatbtn{
+  font-size: 2.5rem !important;
+  cursor: pointer;
+  background-color:#2E4F4F;
+  color: white;
+  width: 50px !important;
+  border-radius: 100px;
+  padding: 3px;
+  margin-right: 10px;
+}
+.closeIcon{
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .head{
+        background-color: #F6A9A9;
+    }
+}
+.modal-content{
+    margin-top: 15%;
+}

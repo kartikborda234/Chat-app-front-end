@@ -1,0 +1,29 @@
+ul{
+    list-style: none !important;
+    cursor: pointer;
+}
+/* ul>li:hover{
+    color: red;
+} */
+li{
+    margin-top: 5px;
+    display: flex;
+    text-align: start;
+}
+.form-control{
+    width: 85%;
+}
+.inputBox{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listsItems{
+    background-color: #2E4F4F;
+    padding: 5px;
+    border-radius: 10px;
+    width: 85%;
+    color: whitesmoke;
+}
